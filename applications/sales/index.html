@@ -1,0 +1,30 @@
+<div data-role="page" self-menuIndex="1">
+	<div data-role="header">
+	    <h2>跟线辅导</h2>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview">
+			<li>
+				<label>选择销售代表：</label>
+				<select>
+					<option>请选择</option>
+					<option>万晓松</option>
+					<option>李阳</option>
+					<option>李红梅</option>
+				</select>
+			</li>
+			<li>
+				<label>本月SDO目标</label>
+				<textarea readonly="true">1. 脉动65KU卖进
+2. 堆头陈列
+3. 兑付跟进</textarea>
+			</li>
+			<li>
+				<label>选择操作</label>
+				<button self-callback="goData">主数据</button>
+				<button data-theme="b" self-callback="goGuidence">跟线指导</button>
+				<button data-theme="e" self-callback="goCheckpoint">促销检查</button>
+			</li>
+		</ul>
+	</div>
+</div>

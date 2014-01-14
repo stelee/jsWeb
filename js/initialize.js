@@ -17,6 +17,8 @@
 	setMeta("viewport","width=device-width,initial-scale=1,user-scalable=no");
 	setMeta("apple-mobile-web-app-capable","yes");
 	linkCSS("jsWeb/jquery/jquery.mobile-1.3.1.min.css");
+	//linkCSS("css/jquery.mobile.flatui.css");
+	linkCSS("css/app.css");
 	includeJS("jsWeb/jquery/jquery.js",
 		"cordova-current.js",
 		"jsWeb/libs/core.namespace.js",

@@ -54,11 +54,11 @@ $(document).bind('pageshow',function(e)
                         if(controller.onEnter){
                             controller.onEnter();
                         }
-                        debugger;
+
                        
                     }catch(exception)
                     {
-                        //console.error(exception);
+                        console.error(exception);
                     }
                     afterOnEnter(e);
                  });

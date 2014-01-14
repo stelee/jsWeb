@@ -1,0 +1,107 @@
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.grid
+{
+	border: 1px gray solid;
+	border-radius: 5px;
+}
+
+.box-shadow
+{
+	box-shadow: 1px 1px 3px #888888;
+}
+
+.main
+{
+	width: 60%;
+	height: 125px;
+}
+
+.sub
+{
+	width: 36%;
+}
+
+
+.ul-fix > .ui-listview
+{
+	margin-top: 0px!important;
+}
+
+.ul-fix > .ui-listview>.ui-li
+{
+	text-align: center!important;
+	line-height: 20px!important;
+}
+
+.center
+{
+	text-align: center
+}
+
+.big-font
+{
+	font-size: 25px;
+	margin: 10px;
+}
+
+.bigger-font
+{
+	font-size: 36px;
+}
+
+.font-green
+{
+	color: green;
+}
+
+.ui-footer .ui-btn-text {
+	font-size: 10px;
+	text-shadow: 0 none;
+}
+
+.ui-footer .ui-icon-custom.ui-icon {
+	width: 32px;
+	height: 32px;
+	margin-left: -16px;
+}
+
+.ui-footer .ui-icon {
+	background-size: 75px;
+	background-repeat: no-repeat;
+	background-position: 50% 26%;
+	background-color: transparent;
+}
+.ui-footer .ui-btn-inner {
+	padding-top: 40px !important;
+}
+
+#menu_plan .ui-icon
+{
+	background-image: url(../images/icons/14.png);
+}
+#menu_sales .ui-icon
+{
+	background-image: url(../images/icons/11.png);
+}
+#menu_customer .ui-icon
+{
+	background-image: url(../images/icons/17.png);
+}
+#menu_profile .ui-icon
+{
+	background-image: url(../images/icons/13.png);
+}
+
+div.ui-slider-switch.ui-mini {
+	width: 67px;
+}

@@ -30,6 +30,8 @@ Navigator.prototype.removeItem=function(id){
 Navigator.prototype.appendTo=function($target,selectedIndex){
 	if("undefined"!=typeof(selectedIndex)){
 		this.selectedIndex=selectedIndex;
+	}else{
+		this.selectedIndex=$target.attr("self-menuIndex");
 	}
 	var navBarHTML='<div data-role="footer" \
   	data-position="fixed" id="footer" \

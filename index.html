@@ -1,20 +1,41 @@
 <html>
-    <head><title>Meeting Manager</title></head>
+    <head><title>Sales app</title></head>
     <meta name="format-detection" content="telephone=no"/> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name = "viewport" content = "width = device-width,initial-scale = 2.3, user-scalable = no">
     
     <script src="js/initialize.js"></script>
+    <script type="text/javascript">
+        var login=function(){
+            _loadApp("plan");
+        }
+    </script>
     <body>
-        <div data-role="page">
-            <div data-role="header">
-                <h2>Welcome</h2>
-            </div>
+        <div data-role="page" self-noMenu="true">
             <div data-role="content">
-                <h1>Welcome to use jsWeb App framework to build your HTML5 app</h1>
-                <p>I am not doing a big thing, this framwork is just a MVC packaging of jQuery Mobile and Phonegap, you need to:</p>
-                <ul data-role="listview">
-                    <li>Modify the js/initial.js to include your own javascript library</li>
-                    <li>Modify the js/index.js to start the first logic</li>
-                </ul>
+                <div class="center" style="margin:30px">
+                    <img src="images/logo.gif" style="border: 1px solid gray;
+box-shadow: 0px 0px 14px grey;
+border-radius: 8px;"/>
+                </div>
+                <p>
+                  
+                    
+                            <input name="username" placeholder="用户名"/>
+                        
+                        
+                            <input name="password" type="password" placeholder="密码"/>
+                        
+                       
+                            <button data-theme="e" data-inline="true">找回密码</button>
+                            <button data-inline="true" onclick="login()">登录</button>
+
+                        
+                    
+                   
+                </p>
             </div>	
         </div>
     </body>
