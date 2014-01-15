@@ -1,24 +1,24 @@
 Namespace.register("app");
 app.items=[
 	{
-		id:"menu_plan",
-		url:"applications/plan/index.html",
-		name:"工作计划"
+		id:"menu_1",
+		url:"applications/sample/index.html",
+		name:"Menu 1"
 	},
 	{
-		id:"menu_sales",
-		url:"applications/sales/index.html",
-		name:"跟线辅导"
+		id:"menu_2",
+		url:"#",
+		name:"Menu 2"
 	},
 	{
-		id:"menu_customer",
-		url:"applications/customer/index.html",
-		name:"客户拜访"
+		id:"menu_3",
+		url:"a#",
+		name:"Menu 3"
 	},
 	{
-		id:"menu_profile",
-		url:"applications/profile/index.html",
-		name:"业绩板"
+		id:"menu_4",
+		url:"#",
+		name:"Menu 4"
 	}
 ]
 

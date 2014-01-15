@@ -85,19 +85,19 @@
 	padding-top: 40px !important;
 }
 
-#menu_plan .ui-icon
+#menu_1 .ui-icon
 {
 	background-image: url(../images/icons/14.png);
 }
-#menu_sales .ui-icon
+#menu_2 .ui-icon
 {
 	background-image: url(../images/icons/11.png);
 }
-#menu_customer .ui-icon
+#menu_3 .ui-icon
 {
 	background-image: url(../images/icons/17.png);
 }
-#menu_profile .ui-icon
+#menu_4 .ui-icon
 {
 	background-image: url(../images/icons/13.png);
 }
